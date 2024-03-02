@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore | Ecommerce Website Design</title>
+    <link rel="icon" type="image/x-icon" href="https://img.favpng.com/16/3/16/computer-icons-shopping-cart-online-shopping-png-favpng-vrKhvGKSiQxuYu10LeiVYHbUU.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="scroll-up-btn" onclick="topFunction()" id="myBtn">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <div id="header">
+        <div class="container">
+            <!------------- Navbar Section -------------->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" width="125">
+                </div>
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header" onclick="closemenu()">Home</a></li>
+                        <li><a href="#products" onclick="closemenu()">Products</a></li>
+                        <li><a href="#offers" onclick="closemenu()">Offers</a></li>
+                        <li><a href="#partners" onclick="closemenu()">Partners</a></li>
+                        <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                        <img
+                            class="menu-icon close"
+                            src="images/close-menuicon.jpg"
+                            alt="logo"
+                            onclick="closemenu()"
+                        >
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="logo" width="30" height="30">
+                <img
+                    class="menu-icon"
+                    src="images/menu.png"
+                    alt="logo"
+                    onclick="openmenu()"
+                >
+            </div>
+            <!------------- Hero Section -------------->
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br /> A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about
+                        consistency. Consistent<br /> hard work gains success.
+                        Greatness will come.
+                    </p>
+                    <a href="" class="btn">Expore Now! &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Featured Categories Section -------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Featured Products Section -------------->
+    <div id="products">
+        <div class="small-container">
+            <h2 class="title">Featured products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-1.jpg" alt="">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-2.jpg" alt="">
+                    <h4>Black Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$69.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg" alt="">
+                    <h4>Track Pant</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$48.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg" alt="">
+                    <h4>Blue Puma T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$75.00</p>
+                </div>
+            </div>
+            <!------------- Latest Products Section -------------->
+            <h2 class="title">Latest products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" alt="">
+                    <h4>Roadster Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$59.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg" alt="">
+                    <h4>Puma Black</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$69.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg" alt="">
+                    <h4>HRX Socks</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$18.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg" alt="">
+                    <h4>Fossil Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$53.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Roadster Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$99.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Sparx Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$39.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Addidas Shoe</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$48.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Track Pant Black</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$95.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Offer Section -------------->
+    <div id="offers">
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/exclusive.png" alt="image" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on Redstore</p>
+                        <h1>Smart Band 4</h1>
+                        <small>
+                            A smartband is a wearable computing device that closely
+                            resembles a wristwatch or other time-keeping device.
+                            In addition to telling time, many smartbands are
+                            Bluetooth-capable.
+                        </small>
+                        <br />
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Testimonial Section -------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Thanks to Upflow, we are able to gain real-time
+                        visibility into our customer debt and follow up
+                        on unpaid invoices if necessary.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3>Seal Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Thanks to Upflow, we are able to gain real-time
+                        visibility into our customer debt and follow up
+                        on unpaid invoices if necessary.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Thanks to Upflow, we are able to gain real-time
+                        visibility into our customer debt and follow up
+                        on unpaid invoices if necessary.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Brands Section -------------->
+    <div id="partners">
+        <div class="brands">
+            <h2 class="title">Our Partners</h2>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <a href="https://www.godrej.com/" target="_blank">
+                            <img src="images/logo-godrej.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://www.oppo.com/in/" target="_blank">
+                            <img src="images/logo-oppo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://www.coca-cola.com/" target="_blank">
+                            <img src="images/logo-coca-cola.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://www.paypal.com/" target="_blank">
+                            <img src="images/logo-paypal.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://www.philips.co.in/" target="_blank">
+                            <img src="images/logo-philips.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <a href="https://www.rolex.com/" target="_blank">
+                            <img src="images/logo-rolex" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://gladiatortechnologies.com/" target="_blank">
+                            <img src="images/logo-gladiator.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://whirlpoolcorp.com" target="_blank">
+                            <img src="images/logo-whirpool.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://www.samsung.com/" target="_blank">
+                            <img src="images/logo-samsung.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <a href="https://www.bosch.com/" target="_blank">
+                            <img src="images/logo-bosch.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Footer Section -------------->
+    <div id="contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download app for Android and iOS mobile devices.</p>
+                        <div class="app-logo">
+                            <a href="https://play.google.com/" target="_blank">
+                                <img src="images/play-store.png" alt="">
+                            </a>
+                            <a href="https://www.apple.com/in/app-store/" target="_blank">
+                                <img src="images/app-store.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="image">
+                        <p>Our purpose is to provide a better experience
+                        for users to download our app.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Usefull Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copyright">Copyright &copy;2022 | <span class="span">Sharuk Abdul</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

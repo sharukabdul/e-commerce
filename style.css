@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #ff523b;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 9999998;
+    transition: all 0.5s
+}
+
+.scroll-up-btn:hover {
+    background: #000;
+    border: 1px solid #ff523b
+}
+
+#header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* ------------- Navbar Styling ------------- */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: #ff523b;
+}
+
+/* ------------- Hero Styling ------------- */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 25px 0
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0
+}
+
+p {
+    color: #555
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: #563434
+}
+
+#header .row {
+    margin-top: 35px;
+}
+
+/* ------------- Featured Categories Styling -------------- */
+
+.categories {
+    margin: 70px 0;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.col-3:hover {
+    transform: scale(1.05);
+}
+
+.col-3 img {
+    max-width: 100%;
+}
+
+/* ------------- Featured Products Styling -------------- */
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+}
+
+.col-4:hover {
+    transform: translateY(-15px)
+}
+
+.col-4 img {
+    max-width: 100%;
+}
+
+.rating i {
+    color: #ff523b
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555
+}
+
+.title:after {
+    content: " ";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 12px;
+}
+
+/* ------------- Offer Styling -------------- */
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    padding: 30px 0;
+    margin-top: 80px;
+}
+
+.col-2 .offer-img {
+    padding: 50px
+}
+
+small {
+    color: #555
+}
+
+/* ------------- Testimonial Styling -------------- */
+
+.testimonial {
+    padding-top: 100px;
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.testimonial .col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.fa.fa-quote-left {
+    font-size: 34px;
+    color: #ff523b;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3 {
+    color: #555;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ------------- Brands Styling -------------- */
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+}
+
+/* ------------- Footer Styling -------------- */
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.copyright {
+    margin: 10px;
+    text-align: center;
+}
+
+.span {
+    color: #ff523b
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon.close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+/* ------------- Media Queries -------------- */
+
+@media only screen and (max-width: 768px) {
+    .scroll-up-btn {
+        position: fixed;
+        height: 35px;
+        width: 32px;
+        bottom: 30px;
+        line-height: 35px;
+        font-size: 20px;
+    }
+
+    nav ul {
+        position: fixed;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        left: 100%;
+        top: 0;
+        padding-top: 80px;
+        text-align: center;
+        z-index: 2;
+        transition: all 0.3s ease;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 40px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        margin: 20px 0;
+        font-size: 22px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .col-2 h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+
+    .col-2 h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
